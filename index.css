@@ -1,0 +1,16 @@
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: hsl(240, 100%, 50%);
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+.block {
+  border: 2px solid black;
+}
+.color-box {
+  display: inline-block;
+  width: 30%;
+  min-height: 100px;
+  background-color: #B22222;
+}
