@@ -1,16 +1,117 @@
+div {
+  display: block;
+}
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   color: hsl(240, 100%, 50%);
+  display: block;
 }
 h2 {
   font-family: 'Oswald', sans-serif;
+  margin: 30px;
+}
+p {
+  font-family: 'Kanit', sans-serif;
 }
 .block {
-  border: 2px solid black;
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.firebrick {
+  color: white;
+  background-color: #B22222;
 }
 .color-box {
   display: inline-block;
-  width: 30%;
+  width: 32%;
   min-height: 100px;
-  background-color: #B22222;
+  text-align: center;
+  margin: 20px auto;
 }
+.hotpink {
+  color: white;
+  background-color: #FF69B4;
+}
+.coolblue {
+  color: white;
+  background-color: #2d5dcc;
+}
+.lemonchiffon {
+  color: gray;
+  background-color: #FFFACD;
+}
+.sourcesanspro{
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 20px;
+ text-decoration: underline;
+}
+.regular {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.bold {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+.italic {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+}
+.font-block {
+  display: inline-block;
+  width: 45%;
+  margin: 20px 5px;
+}
+.oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.osregular {
+  font-family: 'Oswald', sans-serif;
+}
+.osbold {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+}
+.ositalic {
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+}
+.kanit {
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.kregular {
+  font-family: 'Kanit', sans-serif;
+}
+.kbold {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+}
+.kitalic {
+  font-family: 'Kanit', sans-serif;
+  font-style: italic;
+}
+.h1heading {
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 20px;
+}
+ul {
+  font-family: 'Kanit';
+  font-size: 12px;
+}
+.h2heading {
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
